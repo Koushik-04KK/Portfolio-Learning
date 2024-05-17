@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="2xl:container">
+        <div class=" w-[90%] md:w-[70%] mx-auto grid grid-cols-1">
+            <h1 class="font-['Satoshi-Regular'] text-3xl pt-5">My Portfolio</h1>
+            <div class="flex justify-between pt-3">
+                <p class="font-['Satoshi-Regular'] text-xl ">Koushik N</p>
+                <svg
+                viewbox="0 0 24 24"
+                fill="currentcolor"
+                height="18px"
+                width="2em"
+
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 01-1.436.432c-.138-.46-.397-.89-.753-1.357a18.354 18.354 0 00-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.75.75 0 01-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5zM9.5 21.75a.75.75 0 01.75-.75h3.5a.75.75 0 010 1.5h-3.5a.75.75 0 01-.75-.75zM8.75 18a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
+                />
+              </svg>
+            </div>
+         </div>
+         <!--Navbar-->
+         <div class=" w-[90%] md:w-[70%] mx-auto grid grid-cols-1">
+            <nav class=" py-5 rounded-full ring-1 mt-10 ring-gray-100 drop-shadow-lg bg-white overflow-x-auto">
+                <ul class="font-['Satoshi-Regular'] text-base flex justify-evenly items-center overflow-x-auto">
+                    <a href="../index.html"><li>Home</li></a>
+                   <a href="./about.html"><li>About</li></a> 
+                   <a href="./projects.html"><li>Project</li></a>
+                   <a href="./resume.html"><li>Resume</li></a>
+                   <a href="./tools.html"><li>Tools</li></a>
+                   <a href="./ama.html"><li>Ama</li></a>
+                </ul>
+            </nav>
+         </div>
+         <!--content starting-->
+         <div class=" w-[90%] md:w-[70%] mx-auto grid grid-cols-1">
+            <div class=" pt-5">
+                <h1 class="font-['Satoshi-Regular'] font-bold text-3xl">Projects</h1>
+                <h2 class="text-gray-600 font-['Satoshi-Regular'] text-xl">Here are some of the projects I've worked on</h2>
+            </div>
+         </div>
+         <!--Card starts-->
+         <div class=" w-[90%] md:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-3 space-y-5 pt-8 gap-8">
+            <div class="space-y-3 pt-5">
+                <img src="../photo-1579546929662-711aa81148cf.avif" alt="Cardimg" class="h-52">
+                <p class="font-['Satoshi-Regular']">Lorem ipsum dolor sit amet, consectetur.</p>
+                <p class="font-['Satoshi-Regular']">Koushik</p>
+                <div class="flex space-x-16">
+                    <button class="flex gap-3 justify-center items-center bg-green-400 p-3 px-7 rounded-full text-white font-semibold"><svg
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M14 2.5a.5.5 0 00-.5-.5h-6a.5.5 0 000 1h4.793L2.146 13.146a.5.5 0 00.708.708L13 3.707V8.5a.5.5 0 001 0v-6z"
+                        />
+                      </svg> Live</button>
+                      <button class="flex gap-3 justify-center items-center bg-black text-white p-3 px-5 rounded-full font-semibold"> <svg
+                        viewBox="0 0 1024 1024"
+                        fill="currentColor"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" />
+                      </svg> Github</button>
+                </div>
+            </div>
+            <div class="space-y-3 ">
+                <img src="../photo-1579546929662-711aa81148cf.avif" alt="Cardimg" class="h-52">
+                <p class="font-['Satoshi-Regular']">Lorem ipsum dolor sit amet, consectetur.</p>
+                <p class="font-['Satoshi-Regular']">Koushik</p>
+                <div class="flex space-x-16">
+                    <button class="flex gap-3 justify-center items-center bg-green-400 p-3 px-7 rounded-full text-white font-semibold"><svg
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M14 2.5a.5.5 0 00-.5-.5h-6a.5.5 0 000 1h4.793L2.146 13.146a.5.5 0 00.708.708L13 3.707V8.5a.5.5 0 001 0v-6z"
+                        />
+                      </svg> Live</button>
+                      <button class="flex gap-3 justify-center items-center bg-black text-white p-3 px-5 rounded-full font-semibold"> <svg
+                        viewBox="0 0 1024 1024"
+                        fill="currentColor"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" />
+                      </svg> Github</button>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <img src="../photo-1579546929662-711aa81148cf.avif" alt="Cardimg" class="h-52">
+                <p class="font-['Satoshi-Regular']">Lorem ipsum dolor sit amet, consectetur.</p>
+                <p class="font-['Satoshi-Regular']">Koushik</p>
+                <div class="flex space-x-16">
+                    <button class="flex gap-3 justify-center items-center bg-green-400 p-3 px-7 rounded-full text-white font-semibold"><svg
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M14 2.5a.5.5 0 00-.5-.5h-6a.5.5 0 000 1h4.793L2.146 13.146a.5.5 0 00.708.708L13 3.707V8.5a.5.5 0 001 0v-6z"
+                        />
+                      </svg> Live</button>
+                      <button class="flex gap-3 justify-center items-center bg-black text-white p-3 px-5 rounded-full font-semibold"> <svg
+                        viewBox="0 0 1024 1024"
+                        fill="currentColor"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" />
+                      </svg> Github</button>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <img src="../photo-1579546929662-711aa81148cf.avif" alt="Cardimg" class="h-52">
+                <p class="font-['Satoshi-Regular']">Lorem ipsum dolor sit amet, consectetur.</p>
+                <p class="font-['Satoshi-Regular']">Koushik</p>
+                <div class="flex space-x-16">
+                    <button class="flex gap-3 justify-center items-center bg-green-400 p-3 px-7 rounded-full text-white font-semibold"><svg
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M14 2.5a.5.5 0 00-.5-.5h-6a.5.5 0 000 1h4.793L2.146 13.146a.5.5 0 00.708.708L13 3.707V8.5a.5.5 0 001 0v-6z"
+                        />
+                      </svg> Live</button>
+                      <button class="flex gap-3 justify-center items-center bg-black text-white p-3 px-5 rounded-full font-semibold"> <svg
+                        viewBox="0 0 1024 1024"
+                        fill="currentColor"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" />
+                      </svg> Github</button>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <img src="../photo-1579546929662-711aa81148cf.avif" alt="Cardimg" class="h-52">
+                <p class="font-['Satoshi-Regular']">Lorem ipsum dolor sit amet, consectetur.</p>
+                <p class="font-['Satoshi-Regular']">Koushik</p>
+                <div class="flex space-x-16">
+                    <button class="flex gap-3 justify-center items-center bg-green-400 p-3 px-7 rounded-full text-white font-semibold"><svg
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M14 2.5a.5.5 0 00-.5-.5h-6a.5.5 0 000 1h4.793L2.146 13.146a.5.5 0 00.708.708L13 3.707V8.5a.5.5 0 001 0v-6z"
+                        />
+                      </svg> Live</button>
+                      <button class="flex gap-3 justify-center items-center bg-black text-white p-3 px-5 rounded-full font-semibold"> <svg
+                        viewBox="0 0 1024 1024"
+                        fill="currentColor"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" />
+                      </svg> Github</button>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <img src="../photo-1579546929662-711aa81148cf.avif" alt="Cardimg" class="h-52">
+                <p class="font-['Satoshi-Regular']">Lorem ipsum dolor sit amet, consectetur.</p>
+                <p class="font-['Satoshi-Regular']">Koushik</p>
+                <div class="flex space-x-16">
+                    <button class="flex gap-3 justify-center items-center bg-green-400 p-3 px-7 rounded-full text-white font-semibold"><svg
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M14 2.5a.5.5 0 00-.5-.5h-6a.5.5 0 000 1h4.793L2.146 13.146a.5.5 0 00.708.708L13 3.707V8.5a.5.5 0 001 0v-6z"
+                        />
+                      </svg> Live</button>
+                      <button class="flex gap-3 justify-center items-center bg-black text-white p-3 px-5 rounded-full font-semibold"> <svg
+                        viewBox="0 0 1024 1024"
+                        fill="currentColor"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" />
+                      </svg> Github</button>
+                </div>
+            </div>
+            
+            
+            
+         </div>
+         <!--footer-->
+        <div class=" w-[90%] md:w-[70%] mx-auto grid grid-cols-1 mt-9">
+            <div class="flex justify-between pb-3">
+                <p  class="font-['Satoshi-Regular'] text-base">2024 by Koushik.All Rights Reserved</p>
+                <div class="flex space-x-2 mt-1">
+                    <svg
+                    viewBox="0 0 1024 1024"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                    {...props}
+                  >
+                    <path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1168.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z" />
+                  </svg>
+                  <svg
+                  viewBox="0 0 1024 1024"
+                  fill="currentColor"
+                  height="1em"
+                  width="1em"
+                  {...props}
+                >
+                  <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z" />
+                </svg></div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
